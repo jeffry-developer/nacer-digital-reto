@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: nacer-digital-backend
+    runtime: node
+    rootDir: backend-github
+    buildCommand: npm install && npm run build
+    startCommand: npm run start:prod
